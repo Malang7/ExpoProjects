@@ -9,7 +9,7 @@ const CategoryCards = ({imageSource, tittel}) => {
         className= "w-28 h-28 rounded"
     />
 
-      <Text className = "absolute bottom-1 text-white font-bold" >CategoryCards {tittel}</Text>
+      <Text className = "absolute bottom-1 left-1 text-white font-bold" > {tittel}</Text>
     </TouchableOpacity>
   )
 }

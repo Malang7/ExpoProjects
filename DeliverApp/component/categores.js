@@ -22,9 +22,6 @@ const Categores = () => {
     <CategoryCards imageSource={require("../image/image.jpg")} tittel={"test22222222 1"} />
     <CategoryCards imageSource={require("../image/image.jpg")} tittel={"test22222222 1"} />
 
-
-
-      <Text>ca </Text>
     </ScrollView>
   )
 }

@@ -6,6 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import {ChevronDownIcon, UserIcon, AdjustmentsVerticalIcon,MagnifyingGlassIcon} from "react-native-heroicons/outline";
 import Categores from '../component/categores';
+import FeatureRows from '../component/FeatureRows';
 
 
 function HomeScreen() {
@@ -37,7 +38,7 @@ function HomeScreen() {
         {/** search */}
 
           <View className="flex-row items-center space-x-0 px-1 pb-4">
-            <View className= "flex-row flex-1 bg-gray-200 items-center c pb=2 mx-4">
+            <View className= "flex-row flex-1 bg-gray-280 items-center c pb=2 mx-4">
             <MagnifyingGlassIcon color="gray" size={20}/>
             <TextInput 
                    placeholder='search for resturant'
@@ -56,6 +57,34 @@ function HomeScreen() {
           {/** categoriez */}
 
           <Categores/>
+          <FeatureRows
+            titel={"feature "}
+            description={"description for feature 1"}
+            id={"1234"}
+            />
+
+
+
+
+             <FeatureRows
+            titel={"feature "}
+            description={"description for feature 1"}
+            id={"1234"}
+            />
+          
+           <FeatureRows
+            titel={"feature "}
+            description={"description for feature 1"}
+            id={"2"}
+            />
+          
+           <FeatureRows
+            titel={"feature "}
+            description={"description for feature 1"}
+            id={"234"}
+            />
+
+            
 
           {/** features rows */}
 
